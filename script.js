@@ -1,13 +1,13 @@
 console.log("enlazado correctamente");
 let boton = document.querySelector("#tema")
 let body = document.querySelector("body")
-let modoOscuro = false;
+let modoClaro = false;
 boton.addEventListener("click", () =>{
-if(modoOscuro == false){
-    modoOscuro = true;
-    body.style.backgroundColor = "black";
+if(modoClaro == false){
+    modoClaro = true;
+    body.style.backgroundColor = "white";
 }else{
     modoOscuro = false;
-    body.style.backgroundColor = "white";
+    body.style.backgroundColor = "black";
 }
 })

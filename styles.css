@@ -1,26 +1,102 @@
-
+body{
+    background-color: black;
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 98vw;
+    grid-template-rows: auto 1fr auto;
+}
 header{
     text-align: right;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
 }
 h1{
-    color: blueviolet;
-    font-size: 50px;
+    color: rgb(101, 22, 175);
+    font-size: 85px;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+.muino {
+    width: 600px;
+    height: 600px;
+    margin-left: 500px;
+    display: inline-block;
+    margin-top: 50px;
 }
 .psicologo {
     color: gray;
-    font-size: 30px;
+    font-size: 45px;
 }
 .developer{
     color: gray;
-    font-size: 30px;
+    font-size: 45px;
 }
 p{
-    color: white;
+    color: grey;
+    font-size: 40px;
+    display: grid;
+    min-height: 85vh;
+    grid-template-rows: auto 1fr auto;
 }
 footer{
     grid-area: footer;
     text-align: center;
+    margin-top: auto;
+}
+.linkedin {
+    width: 80px;
+    height: 80px;
+}
+.git-hub {
+    width: 80px;
+    height: 80px;
+}
+.mail {
+    width: auto;
+    height: 75px;
+}
+.redes{
+    display: flex;
+    min-height: 78vh;
+    grid-template-columns: 98vw;
+    grid-template-rows: auto 1fr auto;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+.instagram{
+    width: 500px;
+    height: 500px;
+    opacity: 50%;
+}
+.instagram:hover{
+    opacity: 100%;
+}
+.spotify{
+    width: 500px;
+    height: 500px;
+    opacity: 50%;
+}
+.spotify:hover{
+    opacity: 100%;
+}
+.sobre-mi{
+    display: flex;
+    justify-content: space-around;
+    display: inline-block;
+}
+.psicouba {
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    margin-top: 50px;
 
+}
+.programar {
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    margin-top: 50px;
 }
